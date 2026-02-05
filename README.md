@@ -2,15 +2,15 @@
 
 A simple CRUD Application built using:
 
-Node.js
-Express.js
-EJS
-Mysql
-Dark themed UI
+- Node.js
+- Express.js
+- EJS
+- MySQL / MongoDB
+- Dark themed UI
 
 ## Features
 
-Add user
-Edit user
-Delete user
-View all user
+- Add user
+- Edit user
+- Delete user
+- View all users
