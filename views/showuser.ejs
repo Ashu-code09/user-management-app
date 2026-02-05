@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Users</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>OUR DATABASE HUB!!</h2>
+
+    <!-- <form method="get" action="/user/add">
+        <button class="add-user-btn">ADD USER TO OUR DATABASE </button>
+    </form> -->
+    <table style="text-align: center; margin: 20px auto;">
+        <tr>
+            <th class="head">ID</th>
+            <th class="head">USERNAME</th>
+            <th class="head">EMAIL</th>
+            <th colspan="2" class="head">ACTIONS</th>
+        </tr>
+        <% for(user of users){ %>
+        <tr class="row">
+            <td><%= user.id %></td>
+            <td><%= user.username %></td>
+            <td><%= user.email %></td>
+            <td>
+                <form method = "get" action="/user/<%= user.id %>/edit">
+                    <button>Edit username</button>
+                </form>
+            </td>
+            <td>
+                <form method = "get" action="/user/<%= user.id %>/delete">
+                    <button>DELETE USER</button>
+                </form>
+            </td>
+        </tr>
+        <% } %>
+    
+    </table>
+</body>
+</html>

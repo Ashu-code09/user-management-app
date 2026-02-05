@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete user</title>
+    <link rel="stylesheet" href="/style4.css">
+</head>
+<body>
+    <h2>Delete user from our Database</h2>
+
+    <form method="post" action="/user/<%=user.id%>?_method=DELETE">
+        <label for="email">Enter email:</label>
+        <input type="text" name="email" id="email">
+        <label for="password">Enter password:</label>
+        <input type="password" id="password" name="password">
+        <button>Delete</button>
+        </form>
+</body>
+</html>

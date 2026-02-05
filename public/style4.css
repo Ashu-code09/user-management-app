@@ -1,0 +1,79 @@
+        body {
+            background-color: #1e1e1e;
+            color: #eaeaea;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 300px;
+            height: 3px;
+            background-color: #b91c1c;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        form {
+            background-color: #2d2d2d;
+            width: 380px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+            /* border: 1px solid #7f1d1d; */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 14px;
+            color: #cfcfcf;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 18px;
+            background-color: #1e1e1e;
+            color: #eaeaea;
+            border: 1px solid #555;
+            border-radius: 6px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #dc2626;
+            box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.4);
+        }
+
+        button {
+            width: 100%;
+            background-color: #b91c1c;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        button:hover {
+            background-color: #991b1b;
+        }
+
+        button:active {
+            transform: scale(0.97);
+        }
