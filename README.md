@@ -5,7 +5,7 @@ A simple CRUD Application built using:
 - Node.js
 - Express.js
 - EJS
-- MySQL / MongoDB
+- MySQL
 - Dark themed UI
 
 ## Features
